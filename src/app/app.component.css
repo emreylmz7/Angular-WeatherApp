@@ -14,6 +14,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-width: 500px;
 }
 
 .container{
@@ -21,10 +22,9 @@ body {
     height: 90vh;
     background-color: #E3F4F4;
     border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+  
 }
-
-
 
 .upper-data{
     position: relative;
@@ -72,6 +72,7 @@ body {
     color: #FFF;
     text-align: center;
     font-size: 1.2em;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 .temperature{
@@ -80,6 +81,7 @@ body {
     text-align: center;
     font-weight: 900;
     margin: 0;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
 .weatherType{
     color: #ff4c16;
@@ -144,6 +146,15 @@ body {
     margin-bottom: 20px;
 }
 
+@media (max-width: 600px) {
+  .container{
+    margin: 50px ;
+  }
+  .info-block-value{
+    font-size: 20px;
+  }
+  
+}
 
 /* SEARCH ****************************************************************** */
 
