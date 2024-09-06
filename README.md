@@ -24,7 +24,7 @@ To set up and run the project locally, follow these steps:
 - View the current weather information for the specified city.
 
 
-## Ekran Görüntüleri
+## Screenshots
 
 ![weather1](https://github.com/user-attachments/assets/42639b79-0162-4888-a761-525e0c22e310)
 ![weatherapp](https://github.com/user-attachments/assets/f8140a72-ef44-49b3-a7cd-63abf1772e17)
