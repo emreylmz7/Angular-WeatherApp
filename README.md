@@ -20,7 +20,7 @@ To set up and run the project locally, follow these steps:
 ### Usage
 
 - Enter a city name in the search field on the homepage.
-- Click the "Get Weather" button.
+- Click the "Search" button.
 - View the current weather information for the specified city.
 
 
